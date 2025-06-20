@@ -10,7 +10,7 @@ from youtubesearchpython import SearchVideos
 from yt_dlp import YoutubeDL
 
 from ChampuMusic import app
-from ChampuMusic.platforms.Youtube import YouTubeAPI
+from ChampuMusic.platforms.YouTube import YouTubeAPI
 
 # Define a dictionary to track the last query timestamp for each user
 user_last_CallbackQuery_time = {}
