@@ -16,7 +16,7 @@ API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "Shruti_xRobot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "ShrutixMusicBot")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI")
@@ -44,7 +44,7 @@ EXTRA_PLUGINS = getenv(
 # Fill here the external plugins repo where plugins that you want to load
 EXTRA_PLUGINS_REPO = getenv(
     "EXTRA_PLUGINS_REPO",
-    "https://github.com/MesteriousPrivate/ExtraPlugin",
+    "https://github.com/NANDYADU07912/hehe",
 )
 
 # Your folder name in your extra plugins repo where all plugins stored
@@ -61,7 +61,7 @@ LOGGER_ID = int(getenv("LOGGER_ID"))
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", 1786683163).split())
+    map(int, getenv("OWNER_ID", 7574330905).split())
 )  # Input type must be interger
 
 ## Fill these variables if you're deploying on heroku.
@@ -72,7 +72,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/MesteriousPrivate/heaven",
+    "https://github.com/NANDYADU07912/Mangement",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
